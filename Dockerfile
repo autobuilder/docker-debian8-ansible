@@ -19,9 +19,6 @@ RUN apt-get update \
 RUN pip install --upgrade setuptools \
     && pip install $pip_packages
 
-COPY initctl_faker .
-RUN chmod +x initctl_faker && rm -fr /sbin/initctl && ln -s /initctl_faker /sbin/initctl
-
 # Install Ansible inventory file.
 RUN mkdir -p /etc/ansible
 RUN echo "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
