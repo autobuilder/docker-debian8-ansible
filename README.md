@@ -6,11 +6,11 @@
 <img src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Moby-logo.png" width="13%" height="13%" alt="Docker logo" align="right"/>
 <img src="https://cdn1.iconfinder.com/data/icons/system-shade-circles/512/debian-512.png" width="9%" height="9%" alt="Debian logo" align="right"/>
 
-[![Build Status](https://travis-ci.org/autobuilder/docker-debian8-ansible.svg?branch=master)](https://travis-ci.org/autobuilder/docker-debian8-ansible)
-![Platform](https://img.shields.io/badge/platform-debian-a80030.svg?style=flat) 
-
 [![License](https://img.shields.io/github/license/autobuilder/docker-debian8-ansible)](https://opensource.org/licenses/MIT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/autobuilder/docker-debian8-ansible/issues)
+
+[![Build Status](https://travis-ci.org/autobuilder/docker-debian8-ansible.svg?branch=master)](https://travis-ci.org/autobuilder/docker-debian8-ansible)
+![Platform](https://img.shields.io/badge/platform-debian-a80030.svg?style=flat) 
 
 Debian8 Docker image for Ansible test
 
@@ -28,8 +28,8 @@ See the [LICENSE][license] file that accompanies this distribution for the full 
 
 [AutoBuilder][autobuilder]
 
-[kitchenci]: https://kitchen.ci
+[autobuilder]: https://github.com/autobuilder
 [mit]: https://opensource.org/licenses/MIT
 [license]: https://github.com/autobuilder/docker-debian8-ansible/blob/master/LICENSE
-[autobuilder]: https://github.com/autobuilder
 [ansiblelint]: https://docs.ansible.com/ansible-lint/
+[kitchenci]: https://kitchen.ci
