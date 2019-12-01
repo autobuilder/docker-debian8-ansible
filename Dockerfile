@@ -15,6 +15,9 @@ RUN apt-get update \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
 
+# Install Upgrade setuptools via pip.
+RUN pip install --upgrade setuptools pip
+
 # Install Ansible via pip.
 RUN pip install --upgrade setuptools \
     && pip install $pip_packages
